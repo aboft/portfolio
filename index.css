@@ -1,0 +1,64 @@
+#main {
+  background-image: url('background.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-item {
+  font-size: 1.4em;
+  color: ivory;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.btn:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-holder {
+  position: relative;
+}
+
+.srcbtn {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+}
+
+hr {
+  border-top: 2px solid rgb(204, 198, 198);
+}
+
+.card {
+  background: rgba(143, 255, 246, 0.54);
+}
+
+.aboutarea {
+  background: rgba(255, 255, 246, 0.84);
+  width: 80%;
+  padding: 2em;
+}
+
+.projectarea {
+  width: 90%;
+  padding: 2em;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
